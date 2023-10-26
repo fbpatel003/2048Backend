@@ -84,12 +84,12 @@ WSGI_APPLICATION = 'Backend2048.wsgi.application'
 
 DATABASES = {
    'default': {
-       'ENGINE': 'django.db.backends.postgresql',
-       'NAME': '2048',
-       'USER': 'root',
-       'PASSWORD': '123',
-       'HOST': '127.0.0.1',
-       'PORT': '5432',
+       'ENGINE': 'db-wiad620b0lbt',
+       'NAME': '2048DB',
+       'USER': 'db-wiad620b0lbt',
+       'PASSWORD': 'xeFlOqZm6JkDLTMZ0KlDOLbF',
+       'HOST': 'up-pl-waw1-mysql-1.db.run-on-erla.com',
+       'PORT': '11550',
    }
 }
 
