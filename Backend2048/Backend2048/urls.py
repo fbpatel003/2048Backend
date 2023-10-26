@@ -20,5 +20,7 @@ from app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('admin_test',views.admin_test)
+    path('admin_test',views.admin_test),
+    path('Ref_CRM_Customer',views.Ref_CRM_Customer),
+    path('get_active',views.get_active)
 ]
