@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'Backend2048.wsgi.application'
 
 DATABASES = {
    'default': {
-       'ENGINE': 'db-wiad620b0lbt',
+       'ENGINE': 'django.db.backends.mysql',
        'NAME': '2048DB',
-       'USER': 'db-wiad620b0lbt',
-       'PASSWORD': 'xeFlOqZm6JkDLTMZ0KlDOLbF',
-       'HOST': 'up-pl-waw1-mysql-1.db.run-on-erla.com',
+       'USER': 'db-59177rpl112y ',
+       'PASSWORD': 'picukpSlj2z8DoUxQGsyUoN1',
+       'HOST': 'up-nl-ams1-mysql-1.db.run-on-erla.com',
        'PORT': '11550',
    }
 }
